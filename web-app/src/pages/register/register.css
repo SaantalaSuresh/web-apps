@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.register-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  
+}
+
+.errorMsg {
+    color: red;
+}
+
+.input-box{
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #ced4da;
+    border-radius: 0.25rem;
+  
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   
+}
+label{
+    font-weight: 500;
+    padding-top:8px;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+.input-box:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.register-btn{
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+   
+}
+.gender-field-heading {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+@media screen and (max-width:576px){
+    .input-container{
+        width: 80%;
+    }
+}
+
+span{
+    font-weight: bold;
+    color: blue;
+    font-size: 1rem;
+    text-decoration: underline;
+    padding-left: 8px;
+    cursor: pointer;
+    
+}
+
+.radio{
+    cursor: pointer;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+    padding:3px;
+    margin:0px;
+  }
+
+  .Link{
+   
+    color: blue;
+    text-decoration: none;
+    background-color: none;
+  }
